@@ -1,0 +1,91 @@
+
+
+
+.score-container{
+    position: relative;
+    width: 100px;
+    text-align: center;
+    background-color: #C0392B;
+    top:20px;
+    border-radius: 10px;
+}
+
+.barriersMain{
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    top: 750px;
+}
+.barriers{
+    background-image: url('../images/player_icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+     width: 60px;
+     height:90px;
+     position: absolute;
+}
+.player{
+    background-image: url('../images/objects.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+     width: 70px;   
+     height:70px;
+     position: absolute;
+     margin: 500px 500px;
+     border: none;
+     padding: 0px;
+     display: block;
+     
+}
+#div1{
+    top: 50px;
+    left: 10px;
+}
+#div2{
+    top: 80px;
+    left:200px;
+    
+}
+#div3{
+    top: 10px;
+    left:100px;
+}
+#div4{
+    top: 100px;
+    left:400px;
+}
+#div5{
+    top: 50px;
+    left: 600px;
+}
+#div6{
+    top: 100px;
+    left: 750px;
+}
+#div7{
+    top: 150px;
+    left: 900px;
+}
+
+.rotate{
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.reset{
+   margin: 580px 520px;
+    position: absolute;
+}
+.ball{
+    background-image: url('../images/ball.png');
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 30px;
+    height: 30px; 
+    position: absolute;
+    margin :20px 0px 0px 20px;
+    display: block;
+    
+}
